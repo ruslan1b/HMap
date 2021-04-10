@@ -2,27 +2,26 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>World History Timeline</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="./inspector.css">
     <link rel="csv" type="text/csv" href="./data/time.csv">
 
     <!-- Bootstrap CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-
 </head>
 
 <body>
     <div class="container">
         <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="timeLinePage.html">Time Line</a>
+                <a class="nav-link active" href="timeLinePage.html">Time Line</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="bookPage.html">Book</a>
@@ -32,11 +31,11 @@
             </li>
         </ul>
     </div>
-    <div style="background-image: url(/img/contents.jpg); background-repeat: round;">
+    <script type="module">
 
-    </div>
+        import define from "./index.js"; import {Runtime, Library, Inspector} from "./runtime.js"; const runtime = new Runtime(); const main = runtime.module(define, Inspector.into(document.body));
 
-    <script src="/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    </script>
 </body>
 
 </html>

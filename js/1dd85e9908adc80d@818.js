@@ -2,7 +2,7 @@ import define1 from "./e93997d5089d7165@2303.js";
 
 export default function define(runtime, observer) {
     const main = runtime.module();
-    main.variable(observer()).define(["md"], function(md) { return (md `# Historical Map V1.04`) });
+    //main.variable(observer()).define(["md"], function(md) { return (md `# Historical Map V1.04`) });
     main.variable(observer("viewof sorting")).define("viewof sorting", ["select"], function(select) {
         return (select({ title: 'Sorted by', options: ["region", "time", "kings", "prophets"], value: "time" }))
     });

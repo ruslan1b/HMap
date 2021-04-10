@@ -73,22 +73,16 @@ import {slider} from "@jashkenas/inputs"
 ~~~`
         )
     });
-    main.variable(observer("viewof a")).define("viewof a", ["slider"], function(slider) {
-        return (
-            slider()
-        )
-    });
+    main.variable(observer("viewof a")).define("viewof a", ["slider"], function(slider) { return (slider()) });
     main.variable(observer("a")).define("a", ["Generators", "viewof a"], (G, _) => G.input(_));
     main.variable(observer("viewof a1")).define("viewof a1", ["slider"], function(slider) {
-        return (
-            slider({
-                min: 0,
-                max: 1,
-                step: 0.01,
-                format: ".0%",
-                description: "Zero to one, formatted as a percentage"
-            })
-        )
+        return (slider({
+            min: 0,
+            max: 1,
+            step: 0.01,
+            format: ".0%",
+            description: "Zero to one, formatted as a percentage"
+        }))
     });
     main.variable(observer("a1")).define("a1", ["Generators", "viewof a1"], (G, _) => G.input(_));
     main.variable(observer("viewof a1_1")).define("viewof a1_1", ["slider"], function(slider) {
