@@ -12,43 +12,98 @@ function changeOption() {
     var s = selectedOption.text;
     //added row with audioplayer and download
     var audioPlayer = "";
-
+    console.log('Test', s);
     switch (s) {
         case "Вступление":
-            audioPlayer = "<audio src=\"/audiobook/1. Вступление.mp3\" controls></audio>";
+            selection.innerHTML = "<p>1. Вступление</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/1. Вступление.mp3\" controls></audio></p>";
+            break;
         case "Предисловие":
-            audioPlayer = "<audio src=\"/audiobook/2. Предисловие.mp3\" controls></audio>";
+            selection.innerHTML = "<p>2. Предисловие</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/2. Предисловие.mp3\" controls></audio></p>";
+            break;
         case "Глава-1А":
-            audioPlayer = "<audio src=\"/audiobook/Глава 1А-1. Допотопный мир.mp3\" controls></audio>";
-            //audioPlayer = "<audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio>";
+            selection.innerHTML = "<p>Глава 1А-1. Допотопный мир</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-1. Допотопный мир.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-2 Родословная Ноя</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-3 Цивилизация после потопа</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-3 Цивилизация после потопа.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-4 Переезд семьи Иакова в Египет</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-4 Переезд семьи Иакова в Египет.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-5 Скитания по пустыне</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-5 Скитания по пустыне.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-6 Времена судей</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-6 Времена судей.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-7 Строительство храма Соломона</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-7 Строительство храма Соломона.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-2 Родословная Ноя</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-2 Родословная Ноя</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-2 Родословная Ноя</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-2 Родословная Ноя</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-2 Родословная Ноя</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-2 Родословная Ноя</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-2 Родословная Ноя</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-2 Родословная Ноя</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-2 Родословная Ноя</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-2 Родословная Ноя</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-2 Родословная Ноя</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-2 Родословная Ноя</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-2 Родословная Ноя</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>";
+            break;
         case "Глава-1Б":
-            audioPlayer = "<audio src=\"/audiobook/1. Вступление.mp3\" controls></audio>";
+
+            break;
         case "Глава-2":
-            audioPlayer = "<audio src=\"/audiobook/1. Вступление.mp3\" controls></audio>";
+
+            break;
         case "Глава-3":
-            audioPlayer = "<audio src=\"/audiobook/1. Вступление.mp3\" controls></audio>";
+
+            break;
         case "Глава-4":
-            audioPlayer = "<audio src=\"/audiobook/1. Вступление.mp3\" controls></audio>";
+
+            break;
         case "Глава-5":
-            audioPlayer = "<audio src=\"/audiobook/1. Вступление.mp3\" controls></audio>";
+
+            break;
         case "Глава-6":
-            audioPlayer = "<audio src=\"/audiobook/1. Вступление.mp3\" controls></audio>";
+
+            break;
         case "Глава-7":
-            audioPlayer = "<audio src=\"/audiobook/1. Вступление.mp3\" controls></audio>";
+
+            break;
         case "Глава-8":
-            audioPlayer = "<audio src=\"/audiobook/1. Вступление.mp3\" controls></audio>";
+
+            break;
         case "Глава-9":
-            audioPlayer = "<audio src=\"/audiobook/1. Вступление.mp3\" controls></audio>";
+
+            break;
         case "Глава-10":
-            audioPlayer = "<audio src=\"/audiobook/1. Вступление.mp3\" controls></audio>";
+
+            break;
         case "Глава-11":
-            audioPlayer = "<audio src=\"/audiobook/1. Вступление.mp3\" controls></audio>";
+
+            break;
         case "Глава-12":
-            audioPlayer = "<audio src=\"/audiobook/1. Вступление.mp3\" controls></audio>";
+
+            break;
     }
 
 
-    selection.innerHTML = "<p style=\"text-align: center;\">" + s + "</p>" + audioPlayer;
+    //selection.innerHTML = "<p style=\"text-align: left;\">" + s + audioPlayer + "</p>";
 }
 
 audioSelect.addEventListener("change", changeOption);
