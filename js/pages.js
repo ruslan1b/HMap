@@ -37,35 +37,46 @@ function changeOption() {
                 "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-6 Времена судей.mp3\" controls></audio></p>" +
                 "<p>Глава 1А-7 Строительство храма Соломона</p>" +
                 "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-7 Строительство храма Соломона.mp3\" controls></audio></p>" +
-                "<p>Глава 1А-2 Родословная Ноя</p>" +
-                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
-                "<p>Глава 1А-2 Родословная Ноя</p>" +
-                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
-                "<p>Глава 1А-2 Родословная Ноя</p>" +
-                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
-                "<p>Глава 1А-2 Родословная Ноя</p>" +
-                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
-                "<p>Глава 1А-2 Родословная Ноя</p>" +
-                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
-                "<p>Глава 1А-2 Родословная Ноя</p>" +
-                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
-                "<p>Глава 1А-2 Родословная Ноя</p>" +
-                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
-                "<p>Глава 1А-2 Родословная Ноя</p>" +
-                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
-                "<p>Глава 1А-2 Родословная Ноя</p>" +
-                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
-                "<p>Глава 1А-2 Родословная Ноя</p>" +
-                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
-                "<p>Глава 1А-2 Родословная Ноя</p>" +
-                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
-                "<p>Глава 1А-2 Родословная Ноя</p>" +
-                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>" +
-                "<p>Глава 1А-2 Родословная Ноя</p>" +
-                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-2 Родословная Ноя.mp3\" controls></audio></p>";
+                "<p>Глава 1А-8 Разделенное царство</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-8 Разделенное царство.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-9 Израиль-Самария</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-9 Израиль-Самария.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-10 Иудейское царство</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-10 Иудейское царство.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-11 Вавилонский плен</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-11 Вавилонский плен.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-12 Указ Артарксеркса</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-12 Указ Артарксеркса.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-13 Рождение Иисуса Христа</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-13 Рождение Иисуса Христа.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-14 Разрушение второго храма</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-14 Разрушение второго храма.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-15 Воскресный указ</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-15 Воскресный указ.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-16 Римский папа</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-16 Римский папа.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-17 Начало следственного суда</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-17 Начало следственного суда.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-18 500-тие Реформации</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-18 500-тие Реформации.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-19 Стихотворение Освящение</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-19 Стихотворение Освящение.mp3\" controls></audio></p>" +
+                "<p>Глава 1А-20 Заключение</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1А-20 Заключение.mp3\" controls></audio></p>";
             break;
         case "Глава-1Б":
-
+            selection.innerHTML = "<p>Глава 1Б-1 Первый день</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1Б-1 Первый день.mp3\" controls></audio></p>" +
+                "<p>Глава 1Б-2 Второй день</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1Б-2 Второй день.mp3\" controls></audio></p>" +
+                "<p>Глава 1Б-3 Третий день</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1Б-3 Третий день.mp3\" controls></audio></p>" +
+                "<p>Глава 1Б-4 Четвертый день</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1Б-4 Четвертый день.mp3\" controls></audio></p>" +
+                "<p>Глава 1Б-5 Пятый день</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1Б-5 Пятый день.mp3\" controls></audio></p>" +
+                "<p>Глава 1Б-6 Шестой день</p>" +
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 1Б-6 Шестой день.mp3\" controls></audio></p>";
             break;
         case "Глава-2":
 
