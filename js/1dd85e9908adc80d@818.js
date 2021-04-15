@@ -1,4 +1,4 @@
-import define1 from "./e93997d5089d7165@2303.js";
+import define1 from "./js/e93997d5089d7165@2303.js";
 
 export default function define(runtime, observer) {
     const main = runtime.module();
@@ -191,8 +191,8 @@ export default function define(runtime, observer) {
     });
     main.define("csv", ["d3"], function(d3) {
         return (
-            d3.csv("/data/time.csv")
-            //d3.csv(read.csv("/data/time.csv"))
+            d3.csv("./data/time.csv")
+            //d3.csv(read.csv("./data/time.csv"))
         )
     });
     main.define("data", ["csv"], function(csv) {
