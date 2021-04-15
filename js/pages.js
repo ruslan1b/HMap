@@ -1,18 +1,11 @@
-function PrintForm(e) {
-    alert("Недопустимая длина строки");
-}
-
+var selection = document.getElementById("selection");
 var audioSelect = audioForm.formSelect;
-
+var selectDownload = downloadForm.selectDownload;
 
 function changeOption() {
-
-    var selection = document.getElementById("selection");
     var selectedOption = audioSelect.options[audioSelect.selectedIndex];
     var s = selectedOption.text;
-    //added row with audioplayer and download
-    var audioPlayer = "";
-    console.log('Test', s);
+    //added row with audioplayer       
     switch (s) {
         case "Вступление":
             selection.innerHTML = "<p>1. Вступление</p>" +
@@ -305,9 +298,21 @@ function changeOption() {
                 "<p style=\"text-align: left;\"><audio src=\"/audiobook/Глава 12-5 Стихотворение.mp3\" controls></audio></p>";
             break;
     }
-
-
-    //selection.innerHTML = "<p style=\"text-align: left;\">" + s + audioPlayer + "</p>";
 }
 
 audioSelect.addEventListener("change", changeOption);
+
+function selectedDownload() {
+    var selectedDownloadOption = selectDownload.options[selectDownload.selectedIndex];
+    var d = selectedDownloadOption.text;
+    console.log('Test', d);
+    switch (d) {
+        case "PDF":
+            selection.innerHTML = "<form method=\"get\" action=\"/book/book.pdf\"><button type=\"submit\"class=\"btn btn-outline-success\">Download in PDF</button></form>";
+            break;
+        case "EPUB":
+            selection.innerHTML = "<form method=\"get\" action=\"/book/book.epub\"><button type=\"submit\"class=\"btn btn-outline-success\">Download in EPUB</button></form>";
+            break;
+    }
+}
+selectDownload.addEventListener("change", selectedDownload);
