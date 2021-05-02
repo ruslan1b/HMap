@@ -191,7 +191,7 @@ export default function define(runtime, observer) {
     });
     main.define("csv", ["d3"], function(d3) {
         return (
-            d3.csv("./data/time.csv")
+            d3.csv("/data/time.csv")
             //d3.csv(read.csv("./data/time.csv"))
         )
     });
