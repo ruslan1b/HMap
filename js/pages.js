@@ -9,11 +9,11 @@ function changeOption() {
     switch (s) {
         case "Вступление":
             selection.innerHTML = "<p>1. Вступление</p>" +
-                "<p style=\"text-align: left;\"><audio src=\"./audiobook/1. Вступление.mp3\" controls></audio></p>";
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/1. Вступление.mp3\" controls></audio></p>";
             break;
         case "Предисловие":
             selection.innerHTML = "<p>2. Предисловие</p>" +
-                "<p style=\"text-align: left;\"><audio src=\"./audiobook/2. Предисловие.mp3\" controls></audio></p>";
+                "<p style=\"text-align: left;\"><audio src=\"/audiobook/2. Предисловие.mp3\" controls></audio></p>";
             break;
         case "Глава-1А":
             selection.innerHTML = "<p>Глава 1А-1. Допотопный мир</p>" +

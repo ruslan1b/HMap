@@ -1,4 +1,4 @@
-import define1 from "/e93997d5089d7165@2303.js";
+import define1 from "/@2303.js";
 
 export default function define(runtime, observer) {
     const main = runtime.module();
