@@ -1,8 +1,7 @@
-// https://observablehq.com/@jashkenas/inputs@2303
 export default function define(runtime, observer) {
     const main = runtime.module();
     const fileAttachments = new Map([
-        ["capstan.gif", new URL("./files/c051fbc024553912e31968b35e537d4ad3592201b5f8e7bd13fd9d02e38599c5d541a704d0858c676328babb3e5c9c35dd7c6d67240090d094882a1cad8eece4",
+        ["capstan.gif", new URL("/files/c051fbc024553912e31968b35e537d4ad3592201b5f8e7bd13fd9d02e38599c5d541a704d0858c676328babb3e5c9c35dd7c6d67240090d094882a1cad8eece4",
             import.meta.url)]
     ]);
     main.builtin("FileAttachment", runtime.fileAttachments(name => fileAttachments.get(name)));

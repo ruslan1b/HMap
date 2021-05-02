@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="/css/inspector.css">
+    <link rel="csv" type="text/csv" href="/data/time.csv">
+
+    <!-- Bootstrap CSS -->
+    <link href="/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid" name="container">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/bookPages/timeLinePage.html">Time Line</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="/bookPages/bookPage.html">Book</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container-fluid" name="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" name="navbar">
+            <div class="container-fluid" name="container-fluid">
+                <a class="navbar-brand" href="#">World History Timeline</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarScroll" name="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;" name="navbarMenu">
+
+                        <select class="form-select form-select-sm" aria-label=".form-select-sm example" style="width: auto;">
+                            <option disabled selected>Timeline</option>
+                            <option value="1" onclick="">Map</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                        <form name="audioForm">
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example" style="width: auto;" name="formSelect">
+                                <option disabled selected>Audiobook</option>
+                                <option value="1">Вступление</option>
+                                <option value="2">Предисловие</option>
+                                <option value="3">Глава-1А</option>
+                                <option value="4">Глава-1Б</option>
+                                <option value="5">Глава-2</option>
+                                <option value="6">Глава-3</option>
+                                <option value="7">Глава-4</option>
+                                <option value="8">Глава-5</option>
+                                <option value="9">Глава-6</option>
+                                <option value="10">Глава-7</option>
+                                <option value="11">Глава-8</option>
+                                <option value="12">Глава-9</option>
+                                <option value="13">Глава-10</option>
+                                <option value="14">Глава-11</option>
+                                <option value="15">Глава-12</option>
+                            </select>
+                        </form>
+
+                        <form name="downloadForm">
+                            <select class="form-select form-select-sm" aria-label=".form-select-sm example" style="width: auto;" name="selectDownload">
+                                <option disabled selected>Download</option>
+                                <option value="1">PDF</option>
+                                <option value="2">EPUB</option>                            
+                            </select>
+                        </form>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="selection"></div>
+        <script src="/js/bootstrap.bundle.min.js"></script>
+        <script src="/js/pages.js"></script>
+    </div>
+</body>
+
+</html>

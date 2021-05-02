@@ -308,10 +308,10 @@ function selectedDownload() {
     console.log('Test', d);
     switch (d) {
         case "PDF":
-            selection.innerHTML = "<form method=\"get\" action=\"./book/book.pdf\"><button type=\"submit\"class=\"btn btn-outline-success\">Download in PDF</button></form>";
+            selection.innerHTML = "<form method=\"get\" action=\"/book/book.pdf\"><button type=\"submit\"class=\"btn btn-outline-success\">Download in PDF</button></form>";
             break;
         case "EPUB":
-            selection.innerHTML = "<form method=\"get\" action=\"./book/book.epub\"><button type=\"submit\"class=\"btn btn-outline-success\">Download in EPUB</button></form>";
+            selection.innerHTML = "<form method=\"get\" action=\"/book/book.epub\"><button type=\"submit\"class=\"btn btn-outline-success\">Download in EPUB</button></form>";
             break;
     }
 }
