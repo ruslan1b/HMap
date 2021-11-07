@@ -1,12 +1,27 @@
 {
-    "name": "historical-map",
-    "version": "1.0.4",
-    "description": "HistoricalMap",
-    "main": "server.js",
-    "author": {
-        "name": ""
-    },
-    "dependencies": {
-        "express": "^4.17.1"
-    }
+  "name": "historical-map",
+  "version": "1.0.4",
+  "description": "HistoricalMap",
+  "main": "server.js",
+  "author": "Ruslan Kukharchuk",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruslan1b/HMap.git"
+  },
+  "keywords": [
+    "node",
+    "jscript",
+    "express"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruslan1b/HMap/issues"
+  },
+  "homepage": "https://github.com/ruslan1b/HMap#readme"
 }
