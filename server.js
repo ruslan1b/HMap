@@ -13,10 +13,10 @@ app.use(express.static(__dirname + "/src"));
 
 app.use("/", function(request, response) {
 
-    response.sendFile(__dirname + "/index.html");
+    response.sendFile(__dirname + "./index.html");
 });
 
-app.use("/timeLinePage(.html)?", function(request, response) {
+app.use("./timeLinePage(.html)?", function(request, response) {
 
     response.send(request.url)
 })

@@ -1,2 +1,2 @@
 export { default }
-from "/js/@818.js";
+from "./js/@818.js";
