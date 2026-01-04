@@ -12,6 +12,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
 
 </head>
 
@@ -19,17 +21,7 @@
 
     <header>
         <div class="container">
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/bookPages/timeLinePage.html">Time Line</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/bookPages/bookPage.html">Book</a>
-                </li>
-            </ul>
+            <div data-nav-container data-active-page="info"></div>
         </div>
     </header>
     <main role="main">
@@ -50,20 +42,8 @@
             </label>
         </div>
     </main>
-    <footer>
-        <div class="container">
-            <ul class="nav nav-tabs">
-                <li>
-                    <a class="btn btn-info" href="http://sdarm.com.ua" role="button">SDARM UA</a>
-                </li>
-                <li>
-                    <a class="btn btn-info" href="/bookPages/privacy.html" role="button">Privacy</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
-
     <script src="/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="/js/template-loader.js"></script>
 </body>
 
 </html>

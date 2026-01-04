@@ -1,0 +1,105 @@
+/* Custom styles for Historical Map application */
+
+/* Consistent page width */
+body {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Home page hero section */
+.hero-container {
+    background-image: url(/img/titul_book.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    max-width: 100%;
+    height: 80vmax;
+    min-height: 400px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* Navigation styles */
+.nav-container {
+    margin-bottom: 1rem;
+}
+
+/* Unified navigation template */
+[data-nav-container] {
+    margin-bottom: 1rem;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    min-width: 150px;
+}
+
+.dropdown-item {
+    padding: 0.5rem 1rem;
+}
+
+/* Footer styles */
+.footer-container {
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+
+.footer-container .nav {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+}
+
+/* Audiobook player container */
+.audiobook-container {
+    margin-top: 1rem;
+}
+
+.audiobook-item {
+    margin-bottom: 1.5rem;
+}
+
+.audiobook-item p {
+    margin-bottom: 0.5rem;
+}
+
+.audio-wrapper {
+    text-align: left;
+}
+
+.audiobook-item audio {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Download button container */
+.download-container {
+    margin-top: 1rem;
+}
+
+/* Selection container */
+#selection {
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-container {
+        height: 50vh;
+        background-size: cover;
+    }
+}
+

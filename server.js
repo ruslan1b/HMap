@@ -23,6 +23,10 @@ app.get("/bookPages/bookPage.html", function(request, response) {
     response.sendFile(__dirname + "/bookPages/bookPage.html");
 });
 
+app.get("/bookPages/privacy.html", function(request, response) {
+    response.sendFile(__dirname + "/bookPages/privacy.html");
+});
+
 // Root route - should be last
 app.get("/", function(request, response) {
     response.sendFile(__dirname + "/index.html");
