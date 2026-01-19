@@ -19,7 +19,16 @@
 <body>
     <header>
         <div class="container">
-            <div data-nav-container data-active-page="book"></div>
+            <div data-nav-container data-active-page="book">
+                <!-- Fallback navigation if JavaScript fails -->
+                <noscript>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/bookPages/timeLinePage.html">Time Line</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="/bookPages/bookPage.html">Book</a></li>
+                    </ul>
+                </noscript>
+            </div>
         </div>
     </header>
 

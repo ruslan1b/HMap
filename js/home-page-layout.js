@@ -106,8 +106,18 @@ export class PageLayoutManager {
 
 // Auto-initialize when DOM is ready
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => new PageLayoutManager());
+    document.addEventListener('DOMContentLoaded', () => {
+        try {
+            new PageLayoutManager();
+        } catch (error) {
+            console.error('Failed to initialize page layout:', error);
+        }
+    });
 } else {
-    new PageLayoutManager();
+    try {
+        new PageLayoutManager();
+    } catch (error) {
+        console.error('Failed to initialize page layout:', error);
+    }
 }
 

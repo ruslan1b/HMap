@@ -21,14 +21,68 @@
 
     <header>
         <div class="container">
-            <div data-nav-container data-active-page="home"></div>
+            <div data-nav-container data-active-page="home">
+                <!-- Fallback navigation if JavaScript fails -->
+                <noscript>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/bookPages/timeLinePage.html">Time Line</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/bookPages/bookPage.html">Book</a></li>
+                    </ul>
+                </noscript>
+            </div>
         </div>
     </header>
     <main role="main">
-        <div class="container hero-container"></div>
+        <div class="container hero-container">
+            <!-- Fallback content if JavaScript fails -->
+            <noscript>
+                <h1>Bible Math</h1>
+                <p>Please enable JavaScript to view this site properly.</p>
+            </noscript>
+        </div>
     </main>
 
     <script src="/js/bootstrap.bundle.min.js"></script>
+    <script type="module">
+        // Add error handling for module loading
+        window.addEventListener('error', (event) => {
+            console.error('Script error:', event);
+            console.error('Error details:', {
+                message: event.message,
+                filename: event.filename,
+                lineno: event.lineno,
+                colno: event.colno,
+                error: event.error
+            });
+            // Show fallback content if critical scripts fail
+            const navContainer = document.querySelector('[data-nav-container]');
+            if (navContainer && !navContainer.innerHTML.trim() && !navContainer.querySelector('ul')) {
+                navContainer.innerHTML = `
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/bookPages/timeLinePage.html">Time Line</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/bookPages/bookPage.html">Book</a></li>
+                    </ul>
+                `;
+            }
+        }, true);
+        
+        // Handle unhandled promise rejections (common with ES6 modules)
+        window.addEventListener('unhandledrejection', (event) => {
+            console.error('Unhandled promise rejection:', event.reason);
+            const navContainer = document.querySelector('[data-nav-container]');
+            if (navContainer && !navContainer.innerHTML.trim() && !navContainer.querySelector('ul')) {
+                navContainer.innerHTML = `
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/bookPages/timeLinePage.html">Time Line</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/bookPages/bookPage.html">Book</a></li>
+                    </ul>
+                `;
+            }
+        });
+    </script>
     <script type="module" src="/js/template-loader.js"></script>
     <script type="module" src="/js/home-page-layout.js"></script>
 </body>
